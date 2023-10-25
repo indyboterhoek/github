@@ -12,6 +12,8 @@ function App() {
 	const domain = window.location.host;
 
 	window.location.replace(urls[domain])
+
+	return <div></div>
 }
 
 export default App
